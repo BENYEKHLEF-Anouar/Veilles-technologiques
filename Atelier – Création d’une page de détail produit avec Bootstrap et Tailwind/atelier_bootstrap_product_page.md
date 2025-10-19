@@ -143,6 +143,4 @@ Ajoutez-le **après** le lien Bootstrap :
 
 Bootstrap permet de créer rapidement une page de détail produit claire et responsive. La personnalisation passe par les classes utilitaires et un CSS additionnel.
 
-````
-
 ---
