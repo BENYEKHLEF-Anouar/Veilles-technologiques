@@ -160,6 +160,4 @@ theme: {
 Tailwind CSS offre un contrôle précis du design grâce à ses classes utilitaires.
 La configuration et la personnalisation via le fichier `tailwind.config.js` permettent de créer une identité visuelle unique.
 
-```
-
 ---
