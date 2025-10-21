@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Détail Produit - Tailwind</title>
+  <link rel="stylesheet" href="output.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <header class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto px-4">
+      <h1 class="text-xl font-semibold">Boutique Électronique</h1>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-10">
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Image du produit -->
+      <div>
+        <img src="https://www.mediazone.ma/product/images/11741-E7MqE3bd/casque-sans-fil-jbl-tune-500-bt---noir.webp" alt="Produit" class="rounded-2xl shadow-lg">
+      </div>
+
+      <!-- Détails du produit -->
+      <div>
+        <h2 class="text-3xl font-bold text-primary">Casque Bluetooth XYZ</h2>
+        <p class="text-gray-500 mb-4">Ref: XYZ-123</p>
+        <p class="text-2xl font-semibold text-green-600 mb-4">79,99 €</p>
+        <p class="mb-6">Casque sans fil haute qualité avec réduction de bruit active, autonomie de 20h et design ergonomique.</p>
+
+        <label for="quantity" class="block mb-2 font-medium">Quantité</label>
+        <input type="number" id="quantity" value="1" min="1"
+               class="w-20 border border-gray-300 rounded-lg p-2 mb-6 focus:ring-2 focus:ring-primary focus:outline-none">
+
+        <button class="bg-primary text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition">
+          🛒 Ajouter au panier
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center py-6 border-t text-gray-500">
+    © 2025 Ma Boutique
+  </footer>
+
+</body>
+</html>
