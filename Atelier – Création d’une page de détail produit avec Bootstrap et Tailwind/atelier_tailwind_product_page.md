@@ -139,7 +139,7 @@ theme: {
 
 ---
 
-## Étape 4 : Composants Avancés
+## Étape 4 : Composants Avancés :
 
 * **Tabs** : Utilisez `flex space-x-4 border-b`
 * **Grid de produits similaires** : `grid grid-cols-2 md:grid-cols-4 gap-6`
