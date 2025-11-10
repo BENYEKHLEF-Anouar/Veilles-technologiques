@@ -1,4 +1,4 @@
-### 🎯 Prompt to Generate the Presentation
+### Prompt to Generate the Presentation
 
 > **Prompt:**
 >
